@@ -1,0 +1,155 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Title</title>
+  <meta name="description" content="Title">
+  <meta name="author" content="Author">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="main.css?v=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body onload="start()">
+  <div class="container" id="intro">
+    <div class="row text-center">
+      <div class="col-xs-12">
+        <img id="logo" src="logo.png">
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-xs-12">
+        <h1 id="title">PLACEHOLDER</h1>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-xs-12">
+        <h2 id="subTitle">placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text</h2>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-xs-12">
+        <a id="enterButton" onclick="enterPressed()">Enter</a>
+      </div>
+    </div>
+  </div>
+  <div class="container" id="intro2">
+    <div class="row text-center" style="margin: 0px">
+      <div class="col-xs-12">
+          <img id="logo2" class="slide-in-top" src="logo.png">
+        <!-- <p id="top" class="slide-in-top">Placeholder</p> -->
+      </div>
+    </div>
+    <div class="row text-center" style="margin: 0px" id="socialBar">
+      <div class="col-xs-3">
+<a href="https://twitter.com/snapback_sports?lang=en" target="_blank"><i class="fa fa-twitter fa-2x slide-in-left2"></i></a>
+      </div>
+      <div class="col-xs-3">
+<a href="https://www.instagram.com/snapbackpod/?hl=en" target="_blank"><i class="fa fa-instagram fa-2x slide-in-left"></i></a>
+      </div>
+      <div class="col-xs-3">
+<a href="https://www.youtube.com/channel/UCPZepk4TnMjZyv6uh-jBT8A" target="_blank"><i class="fa fa-youtube fa-2x slide-in-right"></i></a>
+      </div>
+      <div class="col-xs-3">
+<a href="https://www.snapchat.com/add/real_sports" target="_blank"><i class="fa fa-2x fa-snapchat-ghost slide-in-right2"></i></a>
+      </div>
+    </div>
+    <div id="cardHolder" class="slide-in-right">
+      <div class="scrollmenu" id="topicScroll"></div>
+      <div id="actualCardHolder"></div>
+    </div>
+    <!-- <div class="scrollmenu" id="scrollTest">
+    </div> -->
+    <!-- <div class="row">
+      <div class="col-xs-4">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="card1Image">
+
+              </div>
+              <div class="row text-center">
+                <div class="col-xs-4">
+                  <p class="firstLine1">EPISODE</p>
+                </div>
+              </div>
+              <div class="row text-center">
+                <div class="col-xs-4">
+                  <p class="lastLine1">TITLE</p>
+                </div>
+              </div>
+
+              <div class="circle1">
+                <p class="circle1Text">TEST</p>
+              </div>
+            </div>
+            <div class="flip-card-back">
+              <h1>John Doe</h1>
+              <p>Architect & Engineer</p>
+              <p>We love that guy</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- <div class="flip-card" style="z-index: 40000; position: absolute;">
+      <div class="flip-card-inner">
+        <div class="flip-card5-front">
+            <div class="card5Image">
+            </div>
+                      <div class="row text-center">
+                        <div class="col-xs-12">
+                          <p class="topic5">INVEST</p>
+                        </div>
+                      </div>
+                      <div class="row text-center">
+                        <div class="col-xs-12">
+                          <p class="title5">5 MISTAKES</p>
+                        </div>
+                      </div>
+        </div>
+        <div class="flip-card5-back">
+          <h1>John Doe</h1>
+          <p>Architect & Engineer</p>
+          <p>We love that guy</p>
+        </div>
+      </div>
+    </div> -->
+
+
+  </div>
+  <div class="container slide-in-right" id="videoScreen">
+    <div class="row text-center">
+      <div class="col-xs-3">
+        <img id="backButton" src="back.png" onclick="backPressed()"></img>
+      </div>
+      <div class="col-xs-9">
+        <p id="videoTitle">Test</p>
+      </div>
+    </div>
+    <div class="row text-center" id="videoRow">
+      <iframe id="videoEmbed" width="90%" height="80%" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- <div id="player"></div>
+        <p id="display"></p> -->
+    </div>
+  </div>
+
+  <script src="videos.js" ></script>
+  <script src="main.js"></script>
+</body>
+</html>
