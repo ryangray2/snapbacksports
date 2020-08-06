@@ -8,6 +8,16 @@ const caseBreak = {
   image: "cb1.jpg"
 }
 
+const valueofsportscards = {
+  title: "How Much Is My Sports Card Worth?",
+  firstHalf: "Nate ",
+  secondHalf: "Burleson",
+  cardFront: "Value",
+  link: "https://youtu.be/oxm7t3qiLXY",
+  topic: "101",
+  image: "val1.jpg"
+}
+
 const nate = {
   title: "First Ever Sports Card Unboxing w/ Nate Burleson",
   firstHalf: "Nate ",
