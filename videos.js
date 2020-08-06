@@ -9,11 +9,11 @@ const caseBreak = {
 }
 
 const valueofsportscards = {
-  title: "How Much Is My Sports Card Worth?",
-  firstHalf: "Nate ",
-  secondHalf: "Burleson",
+  title: "How Much Are My Sports Card Worth?",
+  firstHalf: "Value ",
+  secondHalf: "Cards",
   cardFront: "Value",
-  link: "https://youtu.be/oxm7t3qiLXY",
+  link: "https://youtu.be/cTkxolwXu3g",
   topic: "101",
   image: "val1.jpg"
 }
