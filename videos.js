@@ -18,25 +18,25 @@
 //   image: "val1.jpg"
 // }
 
-// const nate = {
-//   title: "First Ever Sports Card Unboxing w/ Nate Burleson",
-//   firstHalf: "Nate ",
-//   secondHalf: "Burleson",
-//   cardFront: "Nate Burleson",
-//   link: "https://youtu.be/ROud9ZQ560c",
-//   topic: "Guest",
-//   image: "g1.jpg"
-// }
+const nate = {
+  title: "First Ever Sports Card Unboxing w/ Nate Burleson",
+  firstHalf: "Nate ",
+  secondHalf: "Burleson",
+  cardFront: "Nate Burleson",
+  link: "https://youtu.be/ROud9ZQ560c",
+  topic: "Other",
+  image: "g1.jpg"
+}
 
-// const buster = {
-//   title: "Live Card Unboxing With HoopsNation's Buster Scher",
-//   firstHalf: "Buster ",
-//   secondHalf: "Scher",
-//   cardFront: "Buster Scher",
-//   link: "https://youtu.be/pS-5yYYQKYM",
-//   topic: "Guest",
-//   image: "buster.jpg"
-// }
+const buster = {
+  title: "Live Card Unboxing With HoopsNation's Buster Scher",
+  firstHalf: "Buster ",
+  secondHalf: "Scher",
+  cardFront: "Buster Scher",
+  link: "https://youtu.be/pS-5yYYQKYM",
+  topic: "Other",
+  image: "buster.jpg"
+}
 
 // const makeMoney = {
 //   title: "How To Make Money On Sports Cards",
@@ -48,33 +48,33 @@
 //   image: "makeMoney.jpg"
 // }
 
-// const fanmail1 = {
-//   title: "A Fan Sent In Thousands Of Sports Cards",
-//   firstHalf: "Episode ",
-//   secondHalf: "1",
-//   cardFront: "Episode 1",
-//   link: "https://youtu.be/xIOU-B50RBQ",
-//   topic: "Fan Mail",
-//   image: "fm1.jpg"
-// }
+const fanmail1 = {
+  title: "A Fan Sent In Thousands Of Sports Cards",
+  firstHalf: "Episode ",
+  secondHalf: "1",
+  cardFront: "Episode 1",
+  link: "https://youtu.be/xIOU-B50RBQ",
+  topic: "Other",
+  image: "fm1.jpg"
+}
 
-// const packWars1 = {
-//   title: "We Opened A $500 Box Of Sports Cards And Pulled An Insane Rookie!",
-//   cardFront: "Episode 1",
-//   link: "https://youtu.be/cUURYY8vjZ4",
-//   topic: "Pack Wars",
-//   image: "pw1.jpg"
-// }
+const packWars1 = {
+  title: "We Opened A $500 Box Of Sports Cards And Pulled An Insane Rookie!",
+  cardFront: "Episode 1",
+  link: "https://youtu.be/cUURYY8vjZ4",
+  topic: "Other",
+  image: "pw1.jpg"
+}
 
-// const packWars2 = {
-//   title: "What Should The Punishment Be? Pack Wars: Episode 2",
-//   firstHalf: "Episode ",
-//   secondHalf: "2",
-//   cardFront: "Episode 2",
-//   link: "https://youtu.be/HAPC5sLUzro",
-//   topic: "Pack Wars",
-//   image: "pw2.jpg"
-// }
+const packWars2 = {
+  title: "What Should The Punishment Be? Pack Wars: Episode 2",
+  firstHalf: "Episode ",
+  secondHalf: "2",
+  cardFront: "Episode 2",
+  link: "https://youtu.be/HAPC5sLUzro",
+  topic: "Other",
+  image: "pw2.jpg"
+}
 
 // const fiveMistakes = {
 //   title: "5 HUGE Mistakes I Made Starting Out In Sports Card Investing",
@@ -92,13 +92,13 @@
 //   image: "garyVee.jpg"
 // }
 
-// const clean = {
-//   title: "How to Grade and Clean Your Sports Cards Before Submitting To PSA",
-//   cardFront: "Grade/ Clean",
-//   link: "https://www.youtube.com/watch?v=t28rOSnMcck",
-//   topic: "Clean",
-//   image: "clean.jpg"
-// }
+const clean = {
+  title: "How to Grade and Clean Your Sports Cards Before Submitting To PSA",
+  cardFront: "Grade/ Clean",
+  link: "https://www.youtube.com/watch?v=t28rOSnMcck",
+  topic: "Other",
+  image: "clean.jpg"
+}
 
 // const invest101 = {
 //   title: "Modern Sports Card Investing 101",
@@ -157,7 +157,7 @@ const hourWeb = {
   cardFront: "Hour Webinar",
   link: "https://youtu.be/Lpx99ZU1uxk",
   topic: "Webinars",
-  image: ""
+  image: "cb1.jpg"
 }
 
 const fanWeb = {
@@ -165,7 +165,7 @@ const fanWeb = {
   cardFront: "Fan Q's",
   link: "https://www.youtube.com/watch?v=hzniryVgRkg",
   topic: "Webinars",
-  image: ""
+  image: "val1.jpg"
 }
 
 ///////////
@@ -175,7 +175,7 @@ const allGary = {
   cardFront: "All-In-One",
   link: "https://www.youtube.com/watch?v=TU_jtMR_ANA",
   topic: "Gary Vee",
-  image: ""
+  image: "allgary.jpg"
 }
 
 const elevenGary = {
@@ -183,7 +183,7 @@ const elevenGary = {
   cardFront: "Investing",
   link: "https://www.youtube.com/watch?v=Pjsf7ImcFDI",
   topic: "Gary Vee",
-  image: ""
+  image: "11gary.jpg"
 }
 
 const breakfastGary = {
@@ -191,7 +191,7 @@ const breakfastGary = {
   cardFront: "Breakfast",
   link: "https://www.youtube.com/watch?v=0iogCj_ttYs",
   topic: "Gary Vee",
-  image: ""
+  image: "breakfast.jpg"
 }
 
 const funGary = {
@@ -199,15 +199,15 @@ const funGary = {
   cardFront: "Fun",
   link: "https://www.youtube.com/watch?v=xk6qdH78Rg4",
   topic: "Gary Vee",
-  image: ""
+  image: "fungary.jpg"
 }
 
-const busterFun = {
+const jackFun = {
   title: "Buster x Jack Settleman",
   cardFront: "Buster/Jack",
   link: "https://www.youtube.com/watch?v=eqSeyHZ0bbw",
   topic: "Fun Content",
-  image: ""
+  image: "jackBuster.jpg"
 }
 
 const fourFun = {
@@ -215,12 +215,72 @@ const fourFun = {
   cardFront: "$400,000",
   link: "https://www.youtube.com/watch?v=BLZDV5zc2Vg",
   topic: "Fun Content",
-  image: ""
+  image: "400.jpg"
 }
 
+const probsteinFun = {
+  title: "Buster x Probstein",
+  cardFront: "Probstein",
+  link: "https://www.youtube.com/watch?v=c_DkCRPP_9o",
+  topic: "Fun Content",
+  image: "probstein.jpg"
+}
 
+const psaFun = {
+  title: "Cblez PSA Reveal",
+  cardFront: "PSA Reveal",
+  link: "https://www.youtube.com/watch?v=bsgKqld-PQw",
+  topic: "Fun Content",
+  image: "cblez.jpg"
+}
 
+const lefkoeFun = {
+  title: "Buster x Adam Lefkoe",
+  cardFront: "Lefkoe",
+  link: "https://www.youtube.com/watch?v=xpJdNtPjcQo",
+  topic: "Fun Content",
+  image: "lefkoe.jpg"
+}
 
+const loyolaFun = {
+  title: "Buster x Loyola",
+  cardFront: "Loyola",
+  link: "https://www.youtube.com/watch?v=niukj3DEy2s",
+  topic: "Fun Content",
+  image: "loyola.jpg"
+}
 
-// const videoArray = [caseBreak, nate, buster, makeMoney, fanmail1, fiveMistakes, packWars1, packWars2, tipsWithGary, clean, invest101]
-const videoArray = [value101, types101, pc101, money101, grade101, hourWeb, fanWeb, allGary, elevenGary, breakfastGary, funGary, busterFun, fourFun]
+const psaSlabstox = {
+  title: "Are PSA 9 Good Investments?",
+  cardFront: "PSA 9",
+  link: "https://www.youtube.com/watch?v=At2GJGOFCeU",
+  topic: "Slabstox",
+  image: "psa.jpg"
+}
+
+const lebronSlabstox = {
+  title: "Lebron Card Sells for $1.8M",
+  cardFront: "Lebron Card",
+  link: "https://www.youtube.com/watch?v=rzXMugKQIr4",
+  topic: "Slabstox",
+  image: "lebron.jpg"
+}
+
+const cheapSlabstox = {
+  title: "Cheap Investing",
+  cardFront: "Cheap Invest",
+  link: "https://www.youtube.com/watch?v=uwyBzsEVDG4",
+  topic: "Slabstox",
+  image: "cheap.jpg"
+}
+
+const lowerSlabstox = {
+  title: "Lower Your Risk",
+  cardFront: "Lower Risk",
+  link: "https://www.youtube.com/watch?v=ucB8Ux4OQY8",
+  topic: "Slabstox",
+  image: "lower.jpg"
+}
+
+// const videoArray = [caseBreak, nate, buster, makeMoney, fanmail1, fiveMistakes, packWars1, packWars2, tipsWithGary, clean, invest101, psaFun]
+const videoArray = [value101, types101, pc101, money101, grade101, hourWeb, fanWeb, allGary, elevenGary, breakfastGary, funGary, jackFun, fourFun, probsteinFun, lefkoeFun, loyolaFun, psaSlabstox, lebronSlabstox, cheapSlabstox, lowerSlabstox, buster, nate, fanmail1, packWars1, packWars2, clean];
