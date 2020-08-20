@@ -114,7 +114,7 @@ const value101 = {
   cardFront: "Value 101",
   link: "https://youtu.be/oxm7t3qiLXY",
   topic: "101",
-  image: ""
+  image: "101value.png"
 }
 
 
@@ -123,7 +123,7 @@ const types101 = {
   cardFront: "Types",
   link: "https://youtu.be/H48oC6jvgo4",
   topic: "101",
-  image: ""
+  image: "101types.png"
 }
 
 const pc101 = {
@@ -131,7 +131,7 @@ const pc101 = {
   cardFront: "Collection",
   link: "https://youtu.be/VWxLCAj7cps",
   topic: "101",
-  image: ""
+  image: "101pc.png"
 }
 
 const money101 = {
@@ -139,7 +139,7 @@ const money101 = {
   cardFront: "Make Money",
   link: "https://youtu.be/RvKhmJfsvzg",
   topic: "101",
-  image: ""
+  image: "101invest.png"
 }
 
 const grade101 = {
@@ -147,7 +147,7 @@ const grade101 = {
   cardFront: "Grading",
   link: "https://youtu.be/fX1gCHRinEA",
   topic: "101",
-  image: ""
+  image: "101grading.png"
 }
 
 //////
