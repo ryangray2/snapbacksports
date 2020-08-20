@@ -52,7 +52,7 @@ const fanmail1 = {
   title: "A Fan Sent In Thousands Of Sports Cards",
   firstHalf: "Episode ",
   secondHalf: "1",
-  cardFront: "Episode 1",
+  cardFront: "Fan Mail 1",
   link: "https://youtu.be/xIOU-B50RBQ",
   topic: "Other",
   image: "fm1.jpg"
@@ -60,7 +60,7 @@ const fanmail1 = {
 
 const packWars1 = {
   title: "We Opened A $500 Box Of Sports Cards And Pulled An Insane Rookie!",
-  cardFront: "Episode 1",
+  cardFront: "Pack Wars 1",
   link: "https://youtu.be/cUURYY8vjZ4",
   topic: "Other",
   image: "pw1.jpg"
@@ -70,7 +70,7 @@ const packWars2 = {
   title: "What Should The Punishment Be? Pack Wars: Episode 2",
   firstHalf: "Episode ",
   secondHalf: "2",
-  cardFront: "Episode 2",
+  cardFront: "Pack Wars 2",
   link: "https://youtu.be/HAPC5sLUzro",
   topic: "Other",
   image: "pw2.jpg"
@@ -128,7 +128,7 @@ const types101 = {
 
 const pc101 = {
   title: "Personal Collection",
-  cardFront: "Collection",
+  cardFront: "Personal Collection",
   link: "https://youtu.be/VWxLCAj7cps",
   topic: "101",
   image: "101pc.png"
