@@ -60,7 +60,7 @@ const fanmail1 = {
 
 const packWars1 = {
   title: "We Opened A $500 Box Of Sports Cards And Pulled An Insane Rookie!",
-  cardFront: "Pack Wars 1",
+  cardFront: "Pack Wars1",
   link: "https://youtu.be/cUURYY8vjZ4",
   topic: "Other",
   image: "pw1.jpg"
@@ -70,7 +70,7 @@ const packWars2 = {
   title: "What Should The Punishment Be? Pack Wars: Episode 2",
   firstHalf: "Episode ",
   secondHalf: "2",
-  cardFront: "Pack Wars 2",
+  cardFront: "Pack Wars2",
   link: "https://youtu.be/HAPC5sLUzro",
   topic: "Other",
   image: "pw2.jpg"
